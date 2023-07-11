@@ -1,0 +1,72 @@
+window:
+  opacity: 0.75
+  padding:
+    x: 0
+    y: 0
+  # 取消标题栏
+  # decorations: none
+
+# Colors (Everforest Dark)
+colors:
+    # Default colors
+    primary:
+        background: '0x2d353b'
+        foreground: '0xd3c6aa'
+
+               # Normal colors
+    normal:
+        black:   '0x475258'
+        red:     '0xe67e80'
+        green:   '0xa7c080'
+        yellow:  '0xdbbc7f'
+        blue:    '0x7fbbb3'
+        magenta: '0xd699b6'
+        cyan:    '0x83c092'
+        white:   '0xd3c6aa'
+
+    # Bright colors
+    bright:
+        black:   '0x475258'
+        red:     '0xe67e80'
+        green:   '0xa7c080'
+        yellow:  '0xdbbc7f'
+        blue:    '0x7fbbb3'
+        magenta: '0xd699b6'
+        cyan:    '0x83c092'
+        white:   '0xd3c6aa'
+
+scrolling:
+  history: 0
+  multiplier: 3
+
+font: 
+  normal:
+    family: "ComicShannsMono Nerd Font"
+    style: Bold
+
+  bold:
+    family: "ComicShannsMono Nerd Font"
+    style: Bold
+
+  italic:
+    family: "ComicShannsMono Nerd Font"
+    style: Bold Italic
+
+  bold_italic:
+    family: "ComicShannsMono Nerd Font"
+    style: Bold Italic
+
+  offset:
+    x: 0
+    y: 0
+
+  glyph_offset:
+    x: 0
+    y: 0
+
+  size: 10.0
+
+shell:
+  program: "C:\\Windows\\System32\\wsl.exe"
+  args:
+    - -d Arch
